@@ -35,3 +35,7 @@
 
 ## Режим показа клиенту
 Сейчас сайт скрыт от поисковиков: на всех страницах `<meta name="robots" content="noindex">`, в `robots.txt` стоит `Disallow: /`, в `vercel.json` заголовок `X-Robots-Tag: noindex`. Перед запуском на настоящем домене вернуть индексацию (в скрипте сборки `PREVIEW = False`) и удалить заголовок из `vercel.json`.
+
+## Где выложен для показа
+- https://ultravo1ce.github.io/marketri-school/ — GitHub Pages, открывается в России без ВПН. Обновляется автоматически после каждого push в ветку `main`.
+- https://marketri-school.vercel.app — копия на Vercel (в России без ВПН может не открываться).

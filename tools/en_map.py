@@ -385,3 +385,7 @@ T = {
 _segs = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "segments.json"), encoding="utf-8"))
 assert len(_segs) == len(T) == 378, (len(_segs), len(T))
 EN = {s: T[i] for i, s in enumerate(_segs)}
+EN.update({
+    'под эгидой <span>ТАГАНСКОГО МОЛОДЁЖНОГО СОЮЗА</span>': 'under the auspices of the <span>TAGANKA YOUTH UNION</span>',
+    '© 2026 Школа маркетри Татьяны Гориной. Под эгидой ТАГАНСКОГО МОЛОДЁЖНОГО СОЮЗА.': '© 2026 Tatiana Gorina School of Marquetry. Under the auspices of the TAGANKA YOUTH UNION.',
+})

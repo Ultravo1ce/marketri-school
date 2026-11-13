@@ -386,3 +386,32 @@ a.rubric:hover figcaption b { text-decoration: underline; text-underline-offset:
 }
 h1, h2 { overflow-wrap: break-word; hyphens: auto; }
 @media (max-width: 360px) { h1 { font-size: 2.05rem; } }
+
+/* ---------- Эгида: отдельная строка под логотипом ---------- */
+.site-header .wrap {
+  display: grid; grid-template-columns: auto 1fr auto auto;
+  grid-template-areas: "logo nav lang menu" "aegis aegis aegis aegis";
+  align-items: center; column-gap: 24px; row-gap: 0;
+  min-height: 0; padding-top: 14px; padding-bottom: 12px;
+}
+.logo { grid-area: logo; }
+.nav { grid-area: nav; justify-self: end; margin-left: 0; }
+.lang-switch { grid-area: lang; margin-left: 0; }
+.menu-btn { grid-area: menu; }
+.aegis {
+  grid-area: aegis; margin: 4px 0 0 44px; max-width: none;
+  font-size: .68rem; line-height: 1.3; letter-spacing: .02em; white-space: nowrap; color: var(--oak);
+}
+.aegis span { letter-spacing: .06em; font-weight: 500; }
+@media (max-width: 880px) {
+  .site-header .wrap { grid-template-columns: 1fr auto auto; grid-template-areas: "logo lang menu" "aegis aegis aegis"; column-gap: 10px; }
+  .nav { justify-self: stretch; }
+}
+@media (max-width: 480px) {
+  .aegis { margin-left: 34px; font-size: .6rem; }
+  .aegis span { letter-spacing: .04em; }
+}
+@media (max-width: 350px) {
+  .aegis { margin-left: 0; font-size: .55rem; }
+  .aegis span { letter-spacing: .02em; }
+}

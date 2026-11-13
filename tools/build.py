@@ -96,7 +96,8 @@ def page(file, title, desc, body, schema=(), og_type="website", noindex=False):
 <a class="skip" href="#main">Перейти к содержанию</a>
 <header class="site-header">
   <div class="wrap">
-    <a class="logo" href="index.html" aria-label="{NAME}, на главную">{LOGO}<div><b>Школа маркетри</b><span>Татьяны Гориной</span><small class="aegis">под эгидой Таганского молодёжного союза</small></div></a>
+    <a class="logo" href="index.html" aria-label="{NAME}, на главную">{LOGO}<div><b>Школа маркетри</b><span>Татьяны Гориной</span></div></a>
+    <p class="aegis">под эгидой <span>ТАГАНСКОГО МОЛОДЁЖНОГО СОЮЗА</span></p>
     <nav id="nav" class="nav" aria-label="Основное меню"><ul>{nav}</ul></nav>
     <div class="lang-switch" aria-label="Язык сайта"><span aria-current="true">RU</span><a href="en/{file}" hreflang="en" lang="en">EN</a></div>
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Меню</button>
@@ -112,7 +113,7 @@ def page(file, title, desc, body, schema=(), og_type="website", noindex=False):
       <p style="margin:0"><a href="tel:{PHONE_HREF}">{PHONE}</a><br><a href="mailto:{EMAIL}">{EMAIL}</a></p>
     </div>
     <nav aria-label="Меню в подвале"><ul>{"".join(f'<li><a href="{u}">{n}</a></li>' for u, n in NAV)}<li><a href="politika.html">Конфиденциальность</a></li></ul></nav>
-    <p style="margin:0;width:100%">© 2026 {NAME}. Под эгидой Таганского молодёжного союза.</p>
+    <p style="margin:0;width:100%">© 2026 {NAME}. Под эгидой ТАГАНСКОГО МОЛОДЁЖНОГО СОЮЗА.</p>
   </div>
 </footer>
 <div class="cookie" id="cookie" hidden>

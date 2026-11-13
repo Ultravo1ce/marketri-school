@@ -433,3 +433,20 @@ img.swatch { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover
   .posts li.post { grid-template-columns: 1fr; gap: 14px; }
   .post-thumb { max-width: 520px; margin: 0 auto; width: 100%; }
 }
+
+/* ---------- Как добраться: схема и шаги ---------- */
+.route-map { margin: 28px 0 0; padding: 10px; background: var(--banding); }
+.route-map img { display: block; width: 100%; height: auto; background: #F1EDE6; }
+.route-steps { list-style: none; counter-reset: rs; margin: 32px 0 28px; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.route-steps li { counter-increment: rs; position: relative; padding-top: 50px; font-size: .98rem; line-height: 1.55; }
+.route-steps li::before { content: counter(rs); position: absolute; top: 0; left: 0; width: 36px; height: 36px; border-radius: 50%; background: #A65F3C; color: #fff; display: grid; place-items: center; font-weight: 600; font-size: .95rem; }
+@media (max-width: 1000px) { .route-steps { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) {
+  .route-steps { grid-template-columns: 1fr; gap: 18px; }
+  .route-steps li { padding: 4px 0 0 52px; text-align: left; }
+}
+@media (max-width: 880px) { .route-steps li::before { left: 50%; transform: translateX(-50%); } .route-steps li { text-align: center; } }
+@media (max-width: 560px) { .route-steps li::before { left: 0; transform: none; } .route-steps li { text-align: left; } }
+.route-map a { display: block; cursor: zoom-in; }
+.route-zoom { margin: 12px 0 0; font-size: .9rem; }
+@media (max-width: 880px) { .route-zoom { text-align: center; } }

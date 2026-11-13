@@ -114,6 +114,7 @@ def build():
         # адреса и язык
         s = str(soup)
         s = s.replace('content="ru_RU"', 'content="en_US"')
+        s = s.replace("img/route-ru.svg", "img/route-en.svg")
         s = re.sub(r'(<link href="https://example\.ru/)(?!en/)([^"]*)(" rel="canonical")', r'\1en/\2\3', s)
         s = re.sub(r'(<meta content="https://example\.ru/)(?!en/)([^"]*)(" property="og:url")', r'\1en/\2\3', s)
         # переключатель языка

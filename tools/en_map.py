@@ -429,3 +429,5 @@ EN.update({
     'Насыщенный красновато-коричневый, с ровным прямым волокном. Подходит для тёплых теней и осенних мотивов.': 'A rich reddish brown with an even, straight grain. Suits warm shadows and autumn motifs.',
     'Тёмно-коричневый, почти чёрный, с контрастными прожилками. Порода из тропической Африки: контуры, тени, графика.': 'Dark brown, almost black, with contrasting streaks. A species from tropical Africa: outlines, shadows, graphic details.',
 })
+
+EN.update({'Что такое маркетри?': 'What is marquetry?'})

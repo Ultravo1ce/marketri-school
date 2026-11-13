@@ -460,3 +460,6 @@ EN.update({'Открыть схему крупнее': 'Open the map full size'}
 
 EN.update({'Как войти': 'How to get in', 'Подъезд': 'Entrance', '№ 1': 'No. 1', 'Домофон': 'Intercom',
            'Этаж': 'Floor', 'первый, чёрная дверь слева': 'ground floor, the black door on the left'})
+
+EN.update({'Если едете из центра, садитесь в первый вагон. Из стеклянных дверей поверните налево и пройдите по коридору до конца: выход № 2 будет слева. Выйдя на улицу, поверните направо.':
+           'If you are coming from the city centre, ride in the first carriage. After the glass doors, turn left and walk to the end of the corridor: exit 2 will be on your left. Once outside, turn right.'})

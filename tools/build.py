@@ -611,13 +611,12 @@ contacts_page = f'''
 <section style="padding-bottom:clamp(56px,8vw,112px)">
   <div class="wrap">
     {CONTACTS_DL}
-    <iframe class="map" src="{MAP}" title="Мастерская на карте: {ADDRESS}" loading="lazy" allowfullscreen></iframe>
     <h2 id="route" style="margin-top:64px">Как добраться?</h2>
     <p class="lead">От метро «Пролетарская» до мастерской можно дойти пешком.</p>
     <figure class="route-map"><a href="img/route-ru.svg" target="_blank" rel="noopener"><img src="img/route-ru.svg" alt="Схема пешеходного маршрута от метро «Пролетарская», выход № 2, до Брошевского переулка, 4" width="1912" height="900" loading="lazy"></a></figure>
     <p class="route-zoom"><a href="img/route-ru.svg" target="_blank" rel="noopener">Открыть схему крупнее</a></p>
     <ol class="route-steps">
-      <li>Выйдите из метро «Пролетарская» через выход № 2.</li>
+      <li>Если едете из центра, садитесь в первый вагон. Из стеклянных дверей поверните налево и пройдите по коридору до конца: выход № 2 будет слева. Выйдя на улицу, поверните направо.</li>
       <li>Идите вдоль Абельмановской улицы и перейдите Волгоградский проспект по пешеходному переходу.</li>
       <li>Продолжайте путь по Абельмановской улице мимо Театра марионеток. Сразу после дома 9 с10 поверните направо.</li>
       <li>Дойдите до Брошевского переулка и поверните налево. Мастерская — в доме 4, по левой стороне.</li>

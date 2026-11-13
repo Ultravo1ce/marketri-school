@@ -419,3 +419,4 @@ h1, h2 { overflow-wrap: break-word; hyphens: auto; }
 /* ---------- Палитра: настоящие образцы шпона ---------- */
 img.swatch { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; margin-bottom: 14px; background: var(--bg-2); outline: 1px solid rgba(38, 33, 28, .12); box-shadow: 0 1px 0 rgba(38,33,28,.06); }
 .woods .latin { font: italic 300 .88rem/1.35 "Spectral", Georgia, serif; color: var(--muted); margin: 0 0 .45em; }
+.lead--wide { max-width: none; text-wrap: balance; }

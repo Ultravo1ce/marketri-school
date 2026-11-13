@@ -431,3 +431,10 @@ EN.update({
 })
 
 EN.update({'Что такое маркетри?': 'What is marquetry?'})
+
+EN.update({'В маркетри нет красок: цвет даёт сама древесина. Перед вами шесть пород от самой светлой до самой тёмной, но это лишь малая часть коллекции мастерской: в ней десятки других пород, редкие капы, экзотика и тонированный шпон всех цветов.':
+           'Marquetry uses no paint: the colour comes from the wood itself. Here are six species from the lightest to the darkest, but they are only a small part of the studio’s collection, which holds dozens of other species, rare burls, exotic woods and dyed veneer in every colour.'})
+
+EN.update({'В маркетри нет красок: цвет даёт сама древесина. Здесь шесть пород от светлой к тёмной — лишь малая часть коллекции мастерской, где есть десятки других пород, редкие капы, экзотика и тонированный шпон всех цветов.': 'Marquetry uses no paint: the colour comes from the wood itself. Here are six species from light to dark, only a small part of the studio’s collection, with dozens of other species, rare burls, exotic woods and dyed veneer in every colour.'})
+
+EN.update({'В маркетри нет красок: цвет даёт сама древесина. Здесь шесть пород от светлой к тёмной — лишь малая часть коллекции мастерской, где ещё десятки пород, редкие капы, экзотика и цветной шпон.': 'Marquetry uses no paint: the colour comes from the wood itself. Here are six species from light to dark, a small part of the studio’s collection, with dozens more species, rare burls, exotic woods and dyed veneer.'})

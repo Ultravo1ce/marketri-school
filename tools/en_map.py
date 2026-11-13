@@ -457,3 +457,6 @@ EN.update({
 })
 
 EN.update({'Открыть схему крупнее': 'Open the map full size'})
+
+EN.update({'Как войти': 'How to get in', 'Подъезд': 'Entrance', '№ 1': 'No. 1', 'Домофон': 'Intercom',
+           'Этаж': 'Floor', 'первый, чёрная дверь слева': 'ground floor, the black door on the left'})

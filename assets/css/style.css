@@ -450,3 +450,14 @@ img.swatch { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover
 .route-map a { display: block; cursor: zoom-in; }
 .route-zoom { margin: 12px 0 0; font-size: .9rem; }
 @media (max-width: 880px) { .route-zoom { text-align: center; } }
+
+/* ---------- Как войти ---------- */
+.entry { margin-top: 8px; padding: 26px 28px; background: var(--bg-2); border-left: 3px solid #A65F3C; }
+.entry h3 { margin: 0 0 16px; font-size: 1.45rem; }
+.entry dl { display: grid; grid-template-columns: repeat(3, auto); justify-content: start; gap: 12px 56px; margin: 0; }
+.entry dt { font-size: .85rem; color: var(--muted); }
+.entry dd { margin: 4px 0 0; font: 400 1.35rem/1.3 "Spectral", Georgia, serif; color: var(--ink); }
+@media (max-width: 720px) {
+  .entry { text-align: center; border-left: 0; border-top: 3px solid #A65F3C; }
+  .entry dl { grid-template-columns: 1fr; justify-content: stretch; gap: 14px; }
+}

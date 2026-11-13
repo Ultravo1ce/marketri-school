@@ -12,4 +12,16 @@
   <url><loc>https://example.ru/uhod-za-izdeliyami-iz-shpona.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://example.ru/kontakty.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://example.ru/politika.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+<url><loc>https://example.ru/en/</loc><lastmod>2026-11-09</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+<url><loc>https://example.ru/en/obuchenie.html</loc><lastmod>2026-11-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+<url><loc>https://example.ru/en/master.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.ru/en/galereya.html</loc><lastmod>2026-11-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.ru/en/zhurnal.html</loc><lastmod>2026-11-09</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://example.ru/en/marketri-istoriya-i-tehnika.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+<url><loc>https://example.ru/en/kak-nauchitsya-marketri.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+<url><loc>https://example.ru/en/porody-shpona-dlya-marketri.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+<url><loc>https://example.ru/en/instrumenty-dlya-marketri.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+<url><loc>https://example.ru/en/uhod-za-izdeliyami-iz-shpona.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+<url><loc>https://example.ru/en/kontakty.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+<url><loc>https://example.ru/en/politika.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
 </urlset>

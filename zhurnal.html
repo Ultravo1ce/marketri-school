@@ -7,6 +7,9 @@
 <meta name="description" content="Статьи о технике маркетри: история, породы шпона, инструменты и уход за изделиями.">
 <meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://example.ru/zhurnal.html">
+<link rel="alternate" hreflang="ru" href="https://example.ru/zhurnal.html">
+<link rel="alternate" hreflang="en" href="https://example.ru/en/zhurnal.html">
+<link rel="alternate" hreflang="x-default" href="https://example.ru/zhurnal.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Школа маркетри Татьяны Гориной">
 <meta property="og:title" content="Журнал о маркетри — статьи Школы Татьяны Гориной">
@@ -34,15 +37,16 @@
 <a class="skip" href="#main">Перейти к содержанию</a>
 <header class="site-header">
   <div class="wrap">
-    <a class="logo" href="index.html" aria-label="Школа маркетри Татьяны Гориной, на главную"><svg viewBox="0 0 32 32" aria-hidden="true"><polygon points="16,1 31,16 16,16" fill="#E3CFAE"/><polygon points="31,16 16,31 16,16" fill="#5A3E2B"/><polygon points="16,31 1,16 16,16" fill="#E3CFAE"/><polygon points="1,16 16,1 16,16" fill="#A9805A"/></svg><div><b>Школа маркетри</b><span>Татьяны Гориной</span></div></a>
-    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Меню</button>
+    <a class="logo" href="index.html" aria-label="Школа маркетри Татьяны Гориной, на главную"><svg viewBox="0 0 32 32" aria-hidden="true"><polygon points="16,1 31,16 16,16" fill="#E3CFAE"/><polygon points="31,16 16,31 16,16" fill="#5A3E2B"/><polygon points="16,31 1,16 16,16" fill="#E3CFAE"/><polygon points="1,16 16,1 16,16" fill="#A9805A"/></svg><div><b>Школа маркетри</b><span>Татьяны Гориной</span><small class="aegis">под эгидой Таганского молодёжного союза</small></div></a>
     <nav id="nav" class="nav" aria-label="Основное меню"><ul><li><a href="obuchenie.html">Обучение</a></li><li><a href="master.html">О мастере</a></li><li><a href="galereya.html">Галерея</a></li><li><a href="zhurnal.html" aria-current="page">Журнал</a></li><li><a href="kontakty.html">Контакты</a></li></ul></nav>
+    <div class="lang-switch" aria-label="Язык сайта"><span aria-current="true">RU</span><a href="en/zhurnal.html" hreflang="en" lang="en">EN</a></div>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Меню</button>
   </div>
 </header>
 <main id="main">
 
 <div class="page-head"><div class="wrap">
-  <nav class="crumbs" aria-label="Навигация по разделам"><ol><li><a href="index.html">Главная</a></li><li aria-current="page">Журнал</li></ol></nav>
+  <div class="crumbs-row"><a class="back" href="index.html" data-back><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Назад</a><nav class="crumbs" aria-label="Навигация по разделам"><ol><li><a href="index.html">Главная</a></li><li aria-current="page">Журнал</li></ol></nav></div>
   <h1>Журнал</h1>
   <p class="lead">Статьи о технике маркетри, породах дерева и уходе за изделиями из шпона.</p>
 </div></div>
@@ -60,13 +64,14 @@
       <p style="margin:0"><a href="tel:+79000000000">+7 (900) 000-00-00</a><br><a href="mailto:info@example.ru">info@example.ru</a></p>
     </div>
     <nav aria-label="Меню в подвале"><ul><li><a href="obuchenie.html">Обучение</a></li><li><a href="master.html">О мастере</a></li><li><a href="galereya.html">Галерея</a></li><li><a href="zhurnal.html">Журнал</a></li><li><a href="kontakty.html">Контакты</a></li><li><a href="politika.html">Конфиденциальность</a></li></ul></nav>
-    <p style="margin:0;width:100%">© 2026 Школа маркетри Татьяны Гориной</p>
+    <p style="margin:0;width:100%">© 2026 Школа маркетри Татьяны Гориной. Под эгидой Таганского молодёжного союза.</p>
   </div>
 </footer>
 <div class="cookie" id="cookie" hidden>
   <p>Сайт использует cookie и Яндекс Метрику, чтобы понимать, какие страницы полезны. <a href="politika.html">Подробнее</a></p>
   <button type="button">Понятно</button>
 </div>
+<button class="to-top" type="button" aria-label="Наверх" hidden><svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true"><path d="M3 10l5-5 5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
 <script src="assets/js/main.js" defer></script>
 </body>
 </html>

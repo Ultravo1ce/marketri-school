@@ -409,3 +409,23 @@ EN.update({
     'Тем, кто ищет для себя возможность творить, я говорю: маркетри — хорошее занятие. Это очень красиво. Дерево — материал тёплый, живой, с ним приятно работать.': 'To those looking for a way to be creative, I say: marquetry is a good thing to do. It’s very beautiful. Wood is a warm, living material, and it’s a pleasure to work with.',
     'А ещё у вас будет прекрасная возможность оставить потомкам отличную вещь, которая будет передаваться из рук в руки. Можно, как моя ученица, взять столетнюю бабушкину швейную машинку «Зингер» и не только привести её в порядок, но и добавить что-то от себя.': 'And you will have a wonderful chance to leave your descendants a fine piece that will be passed down from hand to hand. You can do what one of my students did: take your grandmother’s hundred-year-old Singer sewing machine and not only restore it, but add something of your own.',
 })
+
+EN.update({
+    'В маркетри нет красок: цвет даёт сама древесина. Вот шесть пород, с которыми работают на курсе, от самой светлой до самой тёмной.': 'Marquetry uses no paint: the colour comes from the wood itself. Here are six species used on the course, from the lightest to the darkest.',
+    'Клён-явор': 'Sycamore maple',
+    'Берёза жёлтая': 'Yellow birch',
+    'Черешня': 'Cherry',
+    'Кедр': 'Cedar',
+    'Шпон: клён-явор': 'Veneer: sycamore maple',
+    'Шпон: берёза жёлтая': 'Veneer: yellow birch',
+    'Шпон: дуб': 'Veneer: oak',
+    'Шпон: черешня': 'Veneer: cherry',
+    'Шпон: кедр': 'Veneer: cedar',
+    'Шпон: венге': 'Veneer: wenge',
+    'Почти белый, с шелковистым блеском и волнистым рисунком. Из этого клёна делают скрипки, а в маркетри — фон, небо и блики.': 'Almost white, with a silky lustre and a rippled figure. Violins are made from this maple; in marquetry it gives backgrounds, skies and highlights.',
+    'Светлая, с тёплым медовым оттенком и мягким рисунком «арками». Хороша для светлых тёплых деталей.': 'Light, with a warm honey tint and a soft arched figure. Good for light, warm details.',
+    'Золотисто-коричневый, с отчётливыми порами и прямыми линиями волокон. Прочный и выразительный.': 'Golden brown, with distinct pores and straight grain lines. Strong and expressive.',
+    'Тёплая, розовато-оранжевая, с ровным мягким рисунком. На свету со временем темнеет и становится глубже.': 'Warm, pinkish orange, with an even, soft figure. In the light it darkens and deepens over time.',
+    'Насыщенный красновато-коричневый, с ровным прямым волокном. Подходит для тёплых теней и осенних мотивов.': 'A rich reddish brown with an even, straight grain. Suits warm shadows and autumn motifs.',
+    'Тёмно-коричневый, почти чёрный, с контрастными прожилками. Порода из тропической Африки: контуры, тени, графика.': 'Dark brown, almost black, with contrasting streaks. A species from tropical Africa: outlines, shadows, graphic details.',
+})

@@ -6,6 +6,8 @@
   <url><loc>https://example.ru/galereya.html</loc><lastmod>2026-11-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://example.ru/zhurnal.html</loc><lastmod>2026-11-09</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://example.ru/marketri-istoriya-i-tehnika.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://example.ru/marketri-svoimi-rukami.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://example.ru/tonirovanie-shpona-peskom.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://example.ru/kak-nauchitsya-marketri.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://example.ru/porody-shpona-dlya-marketri.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://example.ru/instrumenty-dlya-marketri.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
@@ -18,6 +20,8 @@
 <url><loc>https://example.ru/en/galereya.html</loc><lastmod>2026-11-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://example.ru/en/zhurnal.html</loc><lastmod>2026-11-09</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://example.ru/en/marketri-istoriya-i-tehnika.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+<url><loc>https://example.ru/en/marketri-svoimi-rukami.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+<url><loc>https://example.ru/en/tonirovanie-shpona-peskom.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
 <url><loc>https://example.ru/en/kak-nauchitsya-marketri.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
 <url><loc>https://example.ru/en/porody-shpona-dlya-marketri.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
 <url><loc>https://example.ru/en/instrumenty-dlya-marketri.html</loc><lastmod>2026-11-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>

@@ -300,5 +300,5 @@ body.append(knife(250, 1960, 900, 1900))
 body.append(f'<rect width="{W}" height="{H}" fill="url(#vignette)"/>')
 
 svg = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}"><defs>{"".join(defs)}</defs>{"".join(body)}</svg>'
-open("hero-art.svg", "w").write(svg)
+open("/tmp/claude-0/-home-claude/23972080-ba8e-5850-81e6-f070dcea3db4/scratchpad/hero-art.svg", "w").write(svg)
 print("svg", len(svg) // 1024, "KB")

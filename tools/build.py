@@ -221,12 +221,20 @@ WOODS_HTML = '<ul class="woods">' + "".join(
 
 ARTICLE_FILE = "marketri-istoriya-i-tehnika.html"
 ARTICLE_TITLE = "Маркетри: история и техника наборной мозаики из дерева"
-ALL_POSTS = [{"file": ARTICLE_FILE, "short": "Маркетри: история и техника",
+ALL_POSTS = [{"file": ARTICLE_FILE, "short": "Маркетри: история и техника", "img": "art-history",
               "excerpt": "Откуда пришла наборная мозаика из дерева, как создаётся работа и чем маркетри отличается от интарсии и паркетри."}] + ARTICLES
 
 
+def pic(name, alt, lazy=True, w=1200, h=800):
+    extra = ' loading="lazy" decoding="async"' if lazy else ""
+    return (f'<picture><source srcset="img/{name}.webp" type="image/webp">'
+            f'<img src="img/{name}.jpg" alt="{alt}" width="{w}" height="{h}"{extra}></picture>')
+
+
 def post_li(a):
-    return f'<li><h3><a href="{a["file"]}">{a["short"]}</a></h3><p>{a["excerpt"]}</p></li>'
+    thumb = (f'<a class="post-thumb" href="{a["file"]}" tabindex="-1" aria-hidden="true">{pic(a["img"], "")}</a>'
+             if a.get("img") else "")
+    return f'<li class="post">{thumb}<div><h3><a href="{a["file"]}">{a["short"]}</a></h3><p>{a["excerpt"]}</p></div></li>'
 
 
 def related(current):
@@ -532,7 +540,7 @@ article = f'''
 <p>Расцвет маркетри пришёлся на Францию XVII–XVIII веков. Мебельщик Андре-Шарль Буль прославился наборами из латуни и черепахового панциря. В XVIII веке Жан-Франсуа Обен и Жан-Анри Ризенер создавали для королевского двора мебель с цветочными и пейзажными наборами из десятков пород дерева.</p>
 <p>В России наборное дерево ценили в XVIII–XIX веках: им украшали мебель и паркеты дворцов. Знаменитые наборные полы сохранились, например, в Останкинском дворце. Новая волна интереса пришла в эпоху модерна, когда к маркетри обратились Эмиль Галле и мастера школы Нанси.</p>
 
-<figure class="inlay"><img src="img/process.svg" alt="Процесс набора маркетри в мастерской" width="1200" height="800" loading="lazy"></figure>
+<figure class="inlay">{pic("art-history", "Панно в технике маркетри: букет цветов в вазе, обрамлённый наборной окантовкой")}</figure>
 
 <h2>Как создаётся работа</h2>
 <ol>
@@ -581,7 +589,7 @@ for a in ARTICLES:
 </div></div>
 <article class="wrap"><div class="prose">
 <p class="lead">{a["lead"]}</p>
-<figure class="inlay"><img src="img/process.svg" alt="{a["img_alt"]}" width="1200" height="800" loading="lazy"></figure>
+<figure class="inlay">{pic(a["img"], a["img_alt"], lazy=False)}</figure>
 {a["body"]}
 </div></article>
 {related(a["file"])}

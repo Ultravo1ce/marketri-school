@@ -287,3 +287,23 @@ a.rubric:hover figcaption b { text-decoration: underline; text-underline-offset:
 
 .rubrics a[aria-current="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
 [data-rubric][hidden] { display: none; }
+
+/* ---------- О мастере: фото и рассказ ---------- */
+.portrait img { aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 20%; }
+.quote { margin: 0 0 1.4em; padding: 0 0 0 22px; border-left: 2px solid var(--oak); }
+.quote p { font: italic 300 1.3rem/1.55 "Spectral", Georgia, serif; color: var(--ink); margin: 0; max-width: 58ch; }
+.quote--big { border-left: 0; padding: 0; margin: 8px 0 8px; }
+.quote--big p { font-size: clamp(1.7rem, 3vw, 2.4rem); line-height: 1.25; color: var(--accent); }
+.master { padding: clamp(24px, 4vw, 48px) 0 clamp(56px, 8vw, 112px); }
+.master-grid { display: grid; grid-template-columns: 5fr 7fr; gap: clamp(32px, 6vw, 96px); align-items: start; }
+.master-photo { position: sticky; top: 32px; }
+.master-text h2 { font-size: clamp(1.6rem, 2.6vw, 2.1rem); margin-top: 1.6em; }
+.master-text p { font-size: 1.08rem; line-height: 1.75; }
+@media (max-width: 880px) {
+  .master-grid { grid-template-columns: 1fr; }
+  .master-photo { position: static; width: 100%; max-width: 440px; margin: 0 auto; }
+  .master-text h1 { text-align: center; }
+  .master-text > .lead, .master-text > .quote--big { text-align: center; margin-left: auto; margin-right: auto; }
+  .split--media .quote { text-align: left; }
+}
+.master-text .quote--big p { font-size: clamp(1.7rem, 3vw, 2.4rem); line-height: 1.25; }
